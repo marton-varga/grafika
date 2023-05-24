@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="cube" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/cube" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add option="-static-libstdc++" />
+					<Add option="-static-libgcc" />
+					<Add option="-static" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/cube" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="app.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app.h" />
+		<Unit filename="assets/models/cat.obj" />
+		<Unit filename="assets/models/coin.obj" />
+		<Unit filename="assets/models/cube.obj" />
+		<Unit filename="assets/models/field.obj" />
+		<Unit filename="assets/models/field_orig.obj" />
+		<Unit filename="assets/models/lantern.obj" />
+		<Unit filename="assets/models/raptor.obj" />
+		<Unit filename="assets/models/stone.obj" />
+		<Unit filename="assets/models/stone2.obj" />
+		<Unit filename="assets/models/tree.obj" />
+		<Unit filename="assets/models/tree2.obj" />
+		<Unit filename="assets/models/untitled.obj" />
+		<Unit filename="assets/models/weed.obj" />
+		<Unit filename="assets/sounds/coin.wav" />
+		<Unit filename="assets/sounds/ouch.wav" />
+		<Unit filename="assets/textures/coin.jpg" />
+		<Unit filename="assets/textures/cube.jpg" />
+		<Unit filename="assets/textures/cube.png" />
+		<Unit filename="assets/textures/cube_orig.png" />
+		<Unit filename="assets/textures/grass - Copy.png" />
+		<Unit filename="assets/textures/grass.png" />
+		<Unit filename="assets/textures/grass2 - Copy.jpg" />
+		<Unit filename="assets/textures/grass2.jpg" />
+		<Unit filename="assets/textures/grass2.png" />
+		<Unit filename="assets/textures/lantern.jpg" />
+		<Unit filename="assets/textures/raptor.png" />
+		<Unit filename="assets/textures/stone.jpg" />
+		<Unit filename="assets/textures/tree - Copy (2).jpg" />
+		<Unit filename="assets/textures/tree - Copy.jpg" />
+		<Unit filename="assets/textures/tree.jpg" />
+		<Unit filename="assets/textures/tree2.jpg" />
+		<Unit filename="assets/textures/wall - Copy (2).jpg" />
+		<Unit filename="assets/textures/wall - Copy.jpg" />
+		<Unit filename="assets/textures/wall.jpg" />
+		<Unit filename="assets/textures/wallc.jpg" />
+		<Unit filename="camera.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="camera.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="model_wrapper.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="model_wrapper.h" />
+		<Unit filename="scene.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="scene.h" />
+		<Unit filename="sound.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sound.h" />
+		<Unit filename="texture.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="texture.h" />
+		<Unit filename="utils.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="utils.h" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
