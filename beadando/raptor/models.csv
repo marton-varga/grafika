@@ -1,0 +1,93 @@
+#THE FIRST LINE: FIELD_SIZE(X,Y), NUMBER_OF_COINS
+#THE OTHER LINES REPRESENT AN OBJECT EACH. THE VALUES ARE:
+#OBJ_FILE,TEXTURE_FILE, POSITION(X,Y,Z), ROTATION(X,Y,Z), SCALE(X,Y,Z), CENTER_POSITION(X,Y,Z), RADIUS,RANGE
+#USE '#' FOR COMMENTS
+#EMPTY LINES ARE IGNORED
+
+#to adjust field and walls properly:
+#set the scaling of the field to field_size/10
+#the longer wall positions are +- (field_size/2)+0.5
+#the longer wall scalings are (2*field_size)+2
+#example /default/:
+#30,30, 10
+#assets/models/field.obj,assets/textures/grass2.jpg, 0,0,0,	0,0,0,	3,3,3,	0,0,0,	0,0
+#assets/models/cube.obj,assets/textures/wall.jpg, 15.5,0,0.5,	0,0,0,	1,32,1,	0,0,0,	0,0
+#assets/models/cube.obj,assets/textures/wall.jpg, -15.5,0,0.5,	0,0,0,	1,32,1,	0,0,0,	0,0
+#assets/models/cube.obj,assets/textures/wall.jpg, 0,15.5,0.5,	0,0,0,	32,1,1,	0,0,0,	0,0
+#assets/models/cube.obj,assets/textures/wall.jpg, 0,-15.5,0.5,	0,0,0,	32,1,1,	0,0,0,	0,0
+
+30,30, 2
+assets/models/field.obj,assets/textures/grass2.jpg, 0,0,0,	0,0,0,	3,3,3,	0,0,0,	0,0
+assets/models/cube.obj,assets/textures/wall.jpg, 15.5,0,0.5,	0,0,0,	1,32,1,	0,0,0,	0,0
+assets/models/cube.obj,assets/textures/wall.jpg, -15.5,0,0.5,	0,0,0,	1,32,1,	0,0,0,	0,0
+assets/models/cube.obj,assets/textures/wall.jpg, 0,15.5,0.5,	0,0,0,	32,1,1,	0,0,0,	0,0
+assets/models/cube.obj,assets/textures/wall.jpg, 0,-15.5,0.5,	0,0,0,	32,1,1,	0,0,0,	0,0
+
+assets/models/tree.obj,assets/textures/tree2.jpg,	6,7,0,	0,0,0,	0.5,0.5,0.5,	6,7,0,	1,1
+assets/models/stone.obj,assets/textures/stone.jpg,	5,4,0,	0,0,0,	0.5,0.5,0.5,	5,4,0,	1,1
+assets/models/stone2.obj,assets/textures/stone.jpg, 3,5,0,	0,0,0,	0.7,0.7,1,	3,5,0,	1,1
+assets/models/tree2.obj,assets/textures/tree2.jpg,	2,2,0,	0,0,0,	1,1,1,	2,2,1,	1,1
+assets/models/tree2.obj,assets/textures/tree2.jpg,	9,8,0,	0,0,90,	0.8,0.8,0.8,	9,8,1,	1,1
+assets/models/tree2.obj,assets/textures/tree2.jpg,	7.4,4.2,0,	0,0,40,	1,1,1,	7.4,4.2,1,	1,1
+assets/models/tree2.obj,assets/textures/tree2.jpg,	0.5,7,0,	0,0,90,	1,1,1,	0.5,7,1,	1,1
+assets/models/tree2.obj,assets/textures/tree2.jpg,	7,0.5,0,	0,0,90,	1,1,1,	7,0.5,1,	1,1
+assets/models/tree2.obj,assets/textures/tree2.jpg,	0,13,0,	0,0,90,	1,1,1,	0,13,1,	1,1
+assets/models/tree2.obj,assets/textures/tree2.jpg,	13,0,0,	0,0,90,	1,1,1,	13,0,1,	1,1
+assets/models/tree2.obj,assets/textures/tree2.jpg,	7.5,12.5,0,	0,0,90,	1,1,1,	7.5,12.5,1,	1,1
+assets/models/tree2.obj,assets/textures/tree2.jpg,	13,12.5,0,	0,0,0,	1,1,1,	13,12.5,1,	1,1
+
+
+
+assets/models/stone.obj,assets/textures/stone.jpg,	-11,11,0,	0,0,0,	0.5,0.5,0.5,	-11,11,0,	1,1
+assets/models/stone2.obj,assets/textures/stone.jpg, -10,10,0,	0,90,0,	0.7,0.7,1,	-10,10,0,	1,1
+assets/models/stone2.obj,assets/textures/stone.jpg, -10,9,-0.3,	0,270,0,	0.4,0.4,0.7,	-10,9,0,	0.7,0.7
+assets/models/tree2.obj,assets/textures/tree2.jpg,	-9,8,0,	0,0,45,	0.6,0.6,0.6,	-9,8,1,	0.7,0.7
+assets/models/tree2.obj,assets/textures/tree2.jpg,	-13,13,0,	0,0,0,	1,1,0.7,	-13,13,1,	1,1
+assets/models/tree2.obj,assets/textures/tree2.jpg,	-10,13,0,	0,0,270,	1,1,1,	-10.2,13,1,	1,1
+assets/models/tree2.obj,assets/textures/tree2.jpg,	-6,11,0,	0,0,75,	1,1,1,	-6,11,1,	1,1
+assets/models/tree2.obj,assets/textures/tree2.jpg,	-4,5,0,	0,0,212,	1,1,1,	-4,5,1,	1,1
+assets/models/tree2.obj,assets/textures/tree2.jpg,	-11,6,0,	0,0,145,	1,1,1,	-11,6,1,	1,1
+assets/models/tree2.obj,assets/textures/tree2.jpg,	-10,0,0,	0,0,0,	1,1,1,	-10,0,1,	1,1
+
+#the second tree here is a branch of the first one
+assets/models/tree2.obj,assets/textures/tree2.jpg,	-3,3,0,	0,0,0,	1,1,1,	-3,3,1,	1,1
+assets/models/tree2.obj,assets/textures/tree2.jpg,	-3,3,1,	40,60,160,	0.4,0.4,0.3,	-2,3,2,	1,1
+
+
+
+assets/models/tree2.obj,assets/textures/tree2.jpg,	13,-6,0,	0,0,180,	1,1,1,	13,-6,1,	1,1
+assets/models/tree2.obj,assets/textures/tree2.jpg,	13,-13,0,	0,0,0,	1,1,1,	13,-13,1,	1,1
+assets/models/salata.obj,assets/textures/leaves.jpg,	13,-13,4,	0,0,0,	2,2,2.3,	13,-13,4,	0,0
+
+assets/models/salata.obj,assets/textures/leaves.jpg,	6,-7,0.4,	0,0,0,	0.55,0.55,0.55,	6,7,0,	0,0
+assets/models/salata.obj,assets/textures/leaves.jpg,	6.4,-7.7,0.3,	0,15,170,	0.4,0.4,0.4,	6.2,7.3,0.3,	0,0
+assets/models/salata.obj,assets/textures/leaves.jpg,	5.7,-6.4,0.2,	0,0,90,	0.3,0.3,0.3,	6.2,7.3,0.3,	0,0
+assets/models/salata.obj,assets/textures/leaves.jpg,	6.2,-5.8,0.2,	0,60,50,	0.4,0.4,0.4,	6.2,7.3,0.3,	0,0
+assets/models/salata.obj,assets/textures/leaves.jpg,	7.3,-7.2,0.3,	0,60,50,	0.4,0.4,0.4,	6.2,7.3,0.3,	0,0
+assets/models/salata.obj,assets/textures/leaves.jpg,	6,-5.2,0.2,	60,60,50,	0.4,0.4,0.4,	6.2,7.3,0.3,	0,0
+assets/models/salata.obj,assets/textures/leaves.jpg,	5.2,-5.2,0.2,	60,60,50,	0.4,0.4,0.4,	6.2,7.3,0.3,	0,0
+assets/models/salata.obj,assets/textures/leaves.jpg,	5.3,-6,0.2,	60,60,50,	0.4,0.4,0.4,	6.2,7.3,0.3,	0,0
+assets/models/salata.obj,assets/textures/leaves.jpg,	8.3,-6,0.2,	60,60,50,	0.4,0.4,0.4,	6.2,7.3,0.3,	0,0
+assets/models/salata.obj,assets/textures/leaves.jpg,	8.3,-4,0.2,	100,60,40,	0.3,0.3,0.3,	6.2,7.3,0.3,	0,0
+assets/models/salata.obj,assets/textures/leaves.jpg,	10.2,-4,0.3,	100,60,40,	0.3,0.3,0.3,	6.2,7.3,0.3,	0,0
+assets/models/salata.obj,assets/textures/leaves.jpg,	12.3,-6,0.2,	0,60,40,	0.4,0.4,0.4,	6.2,7.3,0.3,	0,0
+assets/models/salata.obj,assets/textures/leaves.jpg,	11.4,-7.6,0.1,	0,0,30,	0.4,0.4,0.4,	6.2,7.3,0.3,	0,0
+assets/models/salata.obj,assets/textures/leaves.jpg,	12.3,-8,0.2,	0,60,40,	0.5,0.5,0.5,	6.2,7.3,0.3,	0,0
+assets/models/salata.obj,assets/textures/leaves.jpg,	12.9,-8.8,0.2,	0,60,40,	0.5,0.5,0.5,	6.2,7.3,0.3,	0,0
+assets/models/salata.obj,assets/textures/leaves.jpg,	10.3,-10,0.2,	0,0,0,	0.4,0.4,0.4,	6.2,7.3,0.3,	0,0
+assets/models/salata.obj,assets/textures/leaves.jpg,	12.3,-9,0.1,	0,0,0,	0.3,0.3,0.4,	6.2,7.3,0.2,	0,0
+assets/models/salata.obj,assets/textures/leaves.jpg,	9,-14,0.1,	0,0,0,	0.3,0.3,0.4,	9,-14,0.2,	0,0
+assets/models/salata.obj,assets/textures/leaves.jpg,	5,-12,0.2,	0,0,0,	0.4,0.4,0.4,	5,-12,0.2,	0,0
+
+#tree with leaves
+assets/models/tree2.obj,assets/textures/tree2.jpg,	6,-6,0,	0,0,212,	1,1,1,	6,-6,1,	1,1
+assets/models/salata.obj,assets/textures/leaves.jpg,	6,-6,4.5,	0,0,180,	2,2,2.4,	6,-6,1,	0,0
+
+#lying tree
+assets/models/tree2.obj,assets/textures/tree2.jpg,	9,-10,0,	0,270,0,	0.6,1,1,	7.4,-10,0,	1.8,1
+#assets/models/tree.obj,assets/textures/tree2.jpg,	9.5,-10,-0.5,	0,0,0,	0.5,0.5,0.5,	9.5,-10,0	1,1
+
+
+#assets/models/pumpkin.obj,assets/textures/pumpkin.jpg,	-6,-5.2,0.2,	0,0,0,	1,1,1,	6.2,7.3,0.3,	0,0
+#assets/models/lantern.obj,assets/textures/lantern.jpg,	-6,-5.2,0.1,	0,0,0,	2,2,2,	6.2,7.3,0.3,	0,0
+
